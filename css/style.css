@@ -64,3 +64,24 @@ body {
     background-color: #dbdbdb;
     cursor: pointer;
 }
+
+#buttons-container .number{
+    background-color: #f3f3f3;
+    transition: 0.2s;
+}
+
+#buttons-container .number:hover{
+    background-color: #BABABA;
+    border-color: #999;
+}
+
+#buttons-container #equal-btn{
+    grid-column: span 2;
+    background-color: #75a5cb ;
+}
+
+#buttons-container #equal-btn:hover{
+    grid-column: span 2;
+    background-color: #3a91d8;
+}
+
